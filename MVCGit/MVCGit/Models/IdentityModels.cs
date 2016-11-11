@@ -29,5 +29,7 @@ namespace MVCGit.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVCGit.Models.Person> People { get; set; }
     }
 }
